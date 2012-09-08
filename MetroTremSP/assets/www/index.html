@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> 
+        <link rel="stylesheet" href="ui-main.css">
+        <script src='jquery-1.7.2.js'></script>
+        <script src='underscore.js'></script>
+        <script src='metro_sp.js'></script>
+        <script src='estacoes.js'></script>
+        <script src='ui-main.js'></script> 
+    </head>
+
+
+    <body>
+        <div id="title">
+            Metro - Trem - SP
+        </div>
+        
+        <section id="form">
+            <h3>Para onde?</h3>
+            <p>Estação de Origem:</p>
+
+            <select id="origem">
+            </select>
+
+            <p>Estação de Destino:</p>
+
+            <select id="destino">
+            </select>
+
+            <p><button id="go">Ver trajeto</button></p>
+            
+            <h3>Extras</h3>
+            <ul>
+                <li><a href="#procurar">Procurar por nome</a></li>
+                <li><a href="#mapa">Mapa do Sistema</a></li>
+                <li><a href="#status">Status do Metrô</a></li>
+                <li><a href="#endereco">Endereço das Estações</a></li>
+            </ul>
+            
+        </section>
+
+        <section id="loading">
+            Carregando
+        </section>
+        
+        <section id="estacoes">
+            <h3>Seu trajeto</h3>
+            <ul></ul>
+        </section>
+        
+        <section id="status">
+            <h3>Status do Metrô</h3>
+            <p><span></span></p>
+            <h3>ViaQuatro e CPTM</h3>
+            <p>As concessionárias não fornecem esta informação.</p>
+        </section>
+        
+    </body>
+
+</html>

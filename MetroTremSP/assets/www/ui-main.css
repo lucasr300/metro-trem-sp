@@ -1,0 +1,73 @@
+select {
+    width: 98%;
+}
+
+body {
+    background: url('bg.png') repeat;
+    padding: 0;
+    padding-top: 60px;
+    margin: 0;
+    font-family: Droid Sans, Ubuntu, Arial;
+}
+
+h3 {
+    color: #315369;
+    border-bottom: 1px solid #CED7DE;
+}
+
+div#title {
+    display: fixed;
+    position: absolute;
+    top: 0;
+    padding-top: 8px;
+    margin: 0;
+    width: 100%;
+    background: url('bgtop.png') repeat-x;
+    height: 40px;
+    text-align: center;
+    color: #eee;
+    text-transform: uppercase;
+}
+
+section {
+    border: 2px solid #66ccff;
+    background: white;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    min-height: 90%;
+}
+
+section ul {
+    padding-left: 5px;
+}
+section ul li {
+    list-style: none;
+    background-position: -10;
+    padding-left: 34px;
+    min-height: 25px;
+    margin-top: 3px;
+}
+
+section ul li.estacao {
+    background: url('arrow.png') no-repeat;
+
+}
+
+section ul li.transferencia {
+    background: url('arrow_split.png') no-repeat;
+    font-style: italic;
+}
+
+section ul li.info {
+    background: url('arrow_split.png') no-repeat;
+    font-style: italic;
+}
+
+iframe {
+    width: 100%;
+    min-height: 190px;
+    overflow: hidden;
+    border: 0;
+}
+
