@@ -1,7 +1,7 @@
-metro-trem-sp
+MetrôTrem SP
 =============
 
-Um aplicativo para Android que permite traçar rotas entre as estações do Metro SP, CPTM e ViaQuatro, com estimativa de tempo.
+Um aplicativo para Android que permite traçar rotas entre as estações do Metro de São Paulo, CPTM e ViaQuatro, com estimativa de tempo.
 Escolha a estação de origem e destino, e você vai ver em segundos qual é o caminho mais rápido, sem precisar de acesso a internet.
 (Uma vez que você provavelmente vai ficar sem sinal dentro do trem)
 
