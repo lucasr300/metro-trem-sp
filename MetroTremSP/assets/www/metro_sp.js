@@ -160,7 +160,14 @@ Sistema = {
                         estacao
                     )
                         
-                    var texto = 'Transferência para linha ' + linha_atual + ', no sentido ' + sentido
+                    var linha = linha_atual;
+                    if (_.isString(linha_atual)) {
+                        linha = 'via ' + linha_atual
+                    } else {
+                        linha = 'para linha ' + linha_atual
+                    }
+                    
+                    var texto = 'Transferência ' + linha + ', no sentido ' + sentido
                     
                     transferencias[estacao_anterior] = texto
                 }

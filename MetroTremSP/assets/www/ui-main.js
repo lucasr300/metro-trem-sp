@@ -13,7 +13,7 @@ $(document).ready(function(){
         exibirPagina(':first')
 
 
-        _.each(_.keys(sistema.grafo),function(estacao){
+        _.each(_.sortBy(_.keys(sistema.grafo),_.identity),function(estacao){
             var option = '<option>' + estacao + '</option>'
             estacao_origem.append(option)
             estacao_destino.append(option)
