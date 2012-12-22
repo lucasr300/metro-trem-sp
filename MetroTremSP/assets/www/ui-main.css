@@ -71,3 +71,8 @@ iframe {
     border: 0;
 }
 
+section#loading > span {
+    display: block;
+    padding: 20px 0 20px 50%;
+}
+

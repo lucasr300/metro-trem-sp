@@ -91,13 +91,13 @@ Sistema = {
         _.each(caminho,function(i){caminho_local.push(i)})
         caminho_local.push(estacao_origem)
         caminho = caminho_local
-        
+
         if (estacao_origem == estacao_destino)
             return [caminho]
-            
+
         if (!(_.has(this.grafo,estacao_origem)))
             return []
-            
+
         var caminhos = []
         _.each(this.grafo[estacao_origem], function(vertice) {
             if (caminho.indexOf(vertice) == -1) {
@@ -106,11 +106,10 @@ Sistema = {
                     caminhos.push(novo_caminho)
                 })
             }
-                
+
         })
-               
+
         return caminhos
-        
     },
     
     caminhos_mais_curtos_entre:function(estacao_origem,estacao_destino) {

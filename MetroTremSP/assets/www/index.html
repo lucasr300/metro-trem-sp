@@ -3,6 +3,7 @@
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> 
         <link rel="stylesheet" href="ui-main.css">
         <script src='jquery-1.7.2.js'></script>
+        <script src='spin.min.js'></script>
         <script src='underscore.js'></script>
         <script src='metro_sp.js'></script>
         <script src='estacoes.js'></script>
@@ -40,7 +41,13 @@
         </section>
 
         <section id="loading">
-            Carregando
+            <span></span>
+            <p><strong>Carregando</strong></p>
+            <p>
+                Quanto maior seu trajeto, mais tempo leva para calcular
+                a melhor rota entre as estações, pois é necessário simular todos
+                os percursos para saber qual é o mais rápido.
+            </p>
         </section>
         
         <section id="estacoes">
